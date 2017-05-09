@@ -2,6 +2,7 @@ var year1 = document.querySelector('.date1');
 var display = document.querySelector('.displayAge');
 var submit = document.querySelector('.submit');
 var message = document.querySelector('.message');
+var mssg = document.querySelector('.mssg');
 
 var todaysDate = new Date();
 var currentYear = todaysDate.getFullYear();
@@ -17,7 +18,7 @@ submit.addEventListener('click', function() {
   var days = ["Sunday", "Monday", "Tuesday", "Wenesday", "Thursday", "Friday", "Saturday"];
   message.innerHTML = days[year1InputValue.getDay()];
 
-  // var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-  // message.innerHTML = months[year1InputValue.getMonth()];
+  var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  mssg.innerHTML = months[year1InputValue.getMonth()];
   display.innerHTML = getAge();
 });

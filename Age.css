@@ -1,14 +1,15 @@
 h1 {
   display: block;
-  padding-left: 358px;
+
   position: relative;
   font-weight: bold;
   font-size: 84px;
 }
-
 .Ages {
-  padding-left: 28%;
+border-radius: 0px;
+background-color: lightblue;
+width: 519px;
 }
-body {
-    background-color: lightblue;
+body{
+  padding-left: 213px;
 }
