@@ -18,7 +18,7 @@ submit.addEventListener('click', function() {
   var days = ["Sunday", "Monday", "Tuesday", "Wenesday", "Thursday", "Friday", "Saturday"];
   message.innerHTML = days[year1InputValue.getDay()];
 
-  var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+  var months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
   mssg.innerHTML = months[year1InputValue.getMonth()];
   display.innerHTML = getAge();
 });
