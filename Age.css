@@ -1,15 +1,25 @@
 h1 {
   display: block;
-
   position: relative;
   font-weight: bold;
   font-size: 84px;
 }
+
 .Ages {
-border-radius: 0px;
-background-color: lightblue;
-width: 519px;
+  border-radius: 16%;
+  background-color: lightblue;
+  width: 519px;
 }
-body{
+
+body {
   padding-left: 213px;
+}
+
+.date {
+  padding-left: 132px;
+}
+h2{
+  position: relative;
+  font-weight: bold;
+  font-size:46px;
 }
